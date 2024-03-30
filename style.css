@@ -1,3 +1,61 @@
+
 body {
-  background-color: aliceblue;
+  background-color: rgb(31, 49, 46);
+  background-image: url("img/rave-concert.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: DM Sans;
+  font-stretch:wider;
+  font-weight: bold;
+  display: grid;
+  background-color: rgb(197, 207, 216);
+  border-radius: 30px;
+  border: 2px solid gray;
+  padding: 10px;
+  width: 15%;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  margin: auto;
+
+}
+
+.tg {
+  background-color: rgb(205, 231, 233);
+  display: table;
+  text-align: center;
+  contain: content;
+  margin: 30px;
+  max-height: fit-content;
+  max-width: fit-content;
+}
+
+th {
+
+  background-color: rgb(156, 202, 185);
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  font-family: DM Sans;
+  font-weight: bolder;
+}
+
+td {
+  font-family: Dosis;
+  font-weight: 500;
+  vertical-align: middle;
+  text-align: center;
+}
+
+caption {
+  font-family: DM Sans;
+  font-weight: bold;
+  color: white;
 }
